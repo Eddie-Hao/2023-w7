@@ -1,4 +1,23 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.bg-body{
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+
+  @include lg {
+    width: 53px;
+    height: 53px;
+  }
+
+}
+
+.form-search {
+  width: 207px;
+
+  @include md {
+    width: 335px;
+  }
 }
